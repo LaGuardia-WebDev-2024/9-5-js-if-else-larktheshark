@@ -9,7 +9,12 @@ draw = function() {
 
     fill(0, 0, 0);
     textSize(20);
-    text("What kind of band never plays music?", 39, 200);
+  
+    
+    if(mousePressed) {
+    text("A#!", 200, 200);
+    }
+    else {text("What's the first note on the A string?", 39, 200);}
 };
 
 /*
